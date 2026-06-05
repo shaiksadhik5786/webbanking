@@ -26,7 +26,7 @@
 <div class="container">
     <h2>Create Account</h2>
 	<p class="message">${msg}</p>
-    <form action="/bank/createAccount" method="post">
+    <form action="/createAccount" method="post">
         <label>Username</label>
         <input type="text" name="username" required>
 
@@ -47,7 +47,7 @@
 
         <button type="submit">Register</button>
     </form>
-    <p>Already have an account? <a href="/bank/login">Login here</a></p>
+    <p>Already have an account? <a href="/login">Login here</a></p>
 </div>
 </body>
 </html>

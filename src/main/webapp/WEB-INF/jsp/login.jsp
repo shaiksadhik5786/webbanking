@@ -36,7 +36,7 @@
         <div class="error">${error}</div>
     </c:if>
 
-    <form action="/bank/validate" method="post">
+    <form action="/validate" method="post">
         <label>Email</label>
         <input type="email" name="email" required>
 
@@ -45,7 +45,7 @@
 
         <button type="submit">Login</button>
     </form>
-    <p>Don’t have an account? <a href="/bank/registration">Register here</a></p>
+    <p>Don’t have an account? <a href="/registration">Register here</a></p>
 </div>
 </body>
 </html>

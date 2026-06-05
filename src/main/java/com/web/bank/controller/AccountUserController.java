@@ -59,7 +59,7 @@ public class AccountUserController {
 	    	}
 
 	        httpSession.setAttribute("loggedInUser", u);
-	        return "redirect:/bank/home";  // ✅ Redirect instead of returning "home"
+	        return "redirect:/home";  // ✅ Redirect instead of returning "home"
 	    } else {
 	        model.addAttribute("error", "User not found");
 	        return "login";

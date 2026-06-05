@@ -64,8 +64,8 @@
 </header>
 
 <div class="container">
-    <a href="/bank/registration" class="btn">Create Account</a>
-    <a href="/bank/login" class="btn">Login to Account</a>
+    <a href="/registration" class="btn">Create Account</a>
+    <a href="/login" class="btn">Login to Account</a>
 </div>
 
 <section>
